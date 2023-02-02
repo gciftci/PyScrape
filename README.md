@@ -8,6 +8,7 @@
 - [x] exceptions
   - [x] request-exceptions (ConnectionError/RequestException/URL-&Tag-Check)
   - [x] Check for HTTP-StatusCode
+  - [ ] if OUTPUT is set to txt, verify OUTPUT_FILENAME and handle exceptions.
 - [x] pre-parse html-content (tabs/spaces etc..)
 - [x] add parser
 - [x] add match-counters
