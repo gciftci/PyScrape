@@ -17,10 +17,14 @@ PyScrape parses webpages by HTML-Tags. This module will be used in my web-scrape
   - [ ] Filter by ID/Class/Style(?)/href etc..
 - [ ] Add "Parent-of" and "Child-of" functionality (e.g: only get <*a*> from <*div class="blub">*)
 
-## 1.2. Screenshot
+## 1.2. Ideas/WishList
+- When tag and optionally parent/child-tag is known, return all Elements of that object:
+  - Inner HTML/Outer HTML, all attributes
+
+## 1.3. Screenshot
 ![Output](screen1.jpg)
 ![](screen2%20.jpg)
-## 1.3. Usage
+## 1.4. Usage
 
 1. configure .env
   
