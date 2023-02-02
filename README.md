@@ -29,7 +29,7 @@
 - [ ] Add option to run multiple instances (coroutines? Async?)
 - [ ] Clean-up messy code, do not only use 1 file (modular)
 - [ ] Bugfixes
-  - [x] Fix: find() is case-sensitive (<a> and <A>)
+  - [x] Fix: find() is case-sensitive (<*a*> and <*A*>)
 
 
 ## 1.2. Ideas/WishList
