@@ -19,11 +19,13 @@
   - [ ] Excel(?)
   - [ ] Database
     - [ ] **MongoDB**
-- [x] Add general configuration 
+- [x] Add general configuration
+  - [ ] Add Cycle-Time option
 - [ ] Add additional Parse-Options 
   - [ ] Get Inner/Outer HTML
   - [ ] Filter by ID/Class/Style(?)/href etc..
 - [ ] Add "Parent-of" and "Child-of" functionality (e.g: only get <*a*> from <*div class="blub">*)
+- [ ] Add option to check every certain amount of time (infinite cycle)
 
 ## 1.2. Ideas/WishList
 - When tag and optionally parent/child-tag is known, return all Elements of that object:
