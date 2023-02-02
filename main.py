@@ -19,7 +19,6 @@ This module will be used in my web-scraper application
     as-is, without any warranty.
 
 ---------------------------------------------------------------------------------------------------------"""
-from glob import glob
 import os
 import dotenv
 import requests
