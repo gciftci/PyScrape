@@ -42,7 +42,7 @@ ALREADY_RUN   = False
 TO_PRINT      = "NewSearch: \n"
 TO_REPLACE    = {
         '\t'        :   '',         # Get rid of tabs
-        '\n'      :   '',         # Get rid of unnecessary new-lines
+        '\n'        :   '',         # Get rid of unnecessary new-lines
         '  '        :   ' '         # Get rid of double-spaces
     }
 # ----------------------------------------------------------------------------------------------------------
@@ -84,7 +84,7 @@ def scraper(URL, ENCAPSULATED_TAG):
     
     # If URL/TAG is fine -> init Tags/Counter
     TAG_OPEN = f"<{ENCAPSULATED_TAG}"           # Example, when ENCAPSULATED_TAG = a:
-    TAG_CLOSE = f"</{ENCAPSULATED_TAG}"        #       _<a... </a>_
+    TAG_CLOSE = f"</{ENCAPSULATED_TAG}"         #       _<a... </a>_
     start_index = 0
 
     # Try to reach URL or throw appriopriate exception
@@ -117,6 +117,7 @@ def scraper(URL, ENCAPSULATED_TAG):
         if OUTPUT == "txt":
             OUTPUTFILE_OBJ.write(TO_PRINT)
             OUTPUTFILE_OBJ.close()    
+            
     # ConnectionError
     except requests.exceptions.ConnectionError as e:
         print("ERROR ConnectionError: ", e)
