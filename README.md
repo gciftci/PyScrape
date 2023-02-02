@@ -10,7 +10,6 @@ PyScrape parses webpages by HTML-Tags. This module will be used in my web-scrape
 - [x] pre-parse html-content (tabs/spaces etc..)
 - [x] add parser
 - [x] add match-counters
-- [x] add match-counters
 - [x] configure output
 - [x] configuration
 - [ ] Add additional Parse-Options 
