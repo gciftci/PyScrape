@@ -12,8 +12,14 @@
 - [x] pre-parse html-content (tabs/spaces etc..)
 - [x] add parser
 - [x] add match-counters
-- [x] configure output
-- [x] configuration
+- [x] Add Output-Configuration
+  - [x] console
+  - [x] Text-File
+  - [ ] CSV(?)
+  - [ ] Excel(?)
+  - [ ] Database
+    - [ ] **MongoDB**
+- [x] Add general configuration 
 - [ ] Add additional Parse-Options 
   - [ ] Get Inner/Outer HTML
   - [ ] Filter by ID/Class/Style(?)/href etc..
