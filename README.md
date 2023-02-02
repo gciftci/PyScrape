@@ -4,6 +4,13 @@ PyScrape parses webpages by HTML-Tags. This module will be used in my web-scrape
 
 ## 1.1. Roadmap/ToDo
 - [x] Basic functionality
+- [x] exceptions
+  - [x] request-exceptions (ConnectionError/RequestException/URL-&Tag-Check)
+  - [x] Check for HTTP-StatusCode
+- [x] pre-parse html-content (tabs/spaces etc..)
+- [x] add parser
+- [x] add match-counters
+- [x] add match-counters
 - [x] configure output
 - [x] configuration
 - [ ] Add additional Parse-Options 
