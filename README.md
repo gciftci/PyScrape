@@ -27,6 +27,7 @@
 - [ ] Add "Parent-of" and "Child-of" functionality (e.g: only get <*a*> from <*div class="blub">*)
 - [ ] Add option to check every certain amount of time (infinite cycle)
 - [ ] Add option to run multiple instances (coroutines? Async?)
+- [ ] Clean-up messy code, do not only use 1 file (modular)
 
 ## 1.2. Ideas/WishList
 - When tag and optionally parent/child-tag is known, return all Elements of that object:
